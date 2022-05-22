@@ -2,7 +2,7 @@
 
 Create generative art by using the canvas api and node js. Before you use the generation engine, make sure you have node.js(v16.15.0) installed.
 
-## Installation 🛠️
+## Installation
 
 If you are cloning the project then run this first.
 
@@ -15,8 +15,9 @@ Go to the root of your folder and run this command if you have yarn installed.
 ```sh
 yarn install
 ```
+OR 
 
-Alternatively you can run this command if you have node installed.
+You can run this command if you have node installed.
 
 ```sh
 npm install
@@ -24,7 +25,7 @@ npm install
 
 ## Usage
 
-Create your different layers as folders in the 'layers' directory, and add all the layer assets in these directories. You can name the assets anything as long as it has a rarity weight attached in the file name like so: `example element#70.png`. You can optionally change the delimiter `#` to anything you would like to use in the variable `rarityDelimiter` in the `src/config.js` file.
+Create your different layers as folders in the 'layers' directory, and add all the layer art in these directories. You can name the files anything as long as it has a rarity weight attached in the file name like so: `example element#70.png`. You can optionally change the delimiter `#` to anything you would like to use in the variable `rarityDelimiter` in the `src/config.js` file.
 
 Once you have all your layers, go into `src/config.js` and update the `layerConfigurations` objects `layersOrder` array to be the exact layer folder names in order of the back layer to the front layer.
 
